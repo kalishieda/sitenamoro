@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+body {
+    background-color: rgb(253, 228, 228)
+}
+
+.namoro-titulo {
+        color: rgb(242, 125, 155);
+        font-size: 80px;
+        text-align: center;
+        font-family: 'Single Day';
+        padding-top: 170px;
+    }
+
+    .namoro-botao {
+        position: sticky;
+        padding: 4px 15px;
+        border-radius: 20px;
+        font-family: 'Single Day';
+        font-size: 23px;
+        color: rgb(62, 71, 80);
+        /*display: inline-block;*/
+        cursor: pointer;
+        margin: 10px;
+        border-style: none;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #divnamoro-botao {
+        min-width: 200px;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #divplacenome {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .name {
+        border-style: none;
+        border-radius: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #namorobuttonno {
+        position: relative;
+    }
