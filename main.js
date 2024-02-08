@@ -1,7 +1,7 @@
 function aceitou() {
     let nome = document.getElementById("nome").value;
 
-    const webhook = "https://discord.com/api/webhooks/1202362014685728858/ClPhLB7GLViiUYpAR-QbBM7q5ZAcG0RyB-HoMN4pdKGRc0h-HyeJ09GUPQ98maHRUXmf";
+    const webhook = "";
     const contents = `${nome} aceitou!!!!`;
     const request = new XMLHttpRequest();
     request.open("POST", webhook);
